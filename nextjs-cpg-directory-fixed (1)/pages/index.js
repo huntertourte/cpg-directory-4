@@ -1,10 +1,14 @@
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 text-center">
-      <div>
-        <h1 className="text-4xl font-bold mb-4">Welcome to the CPG Vendor Directory</h1>
-        <p className="text-lg text-gray-700">Login to access manufacturers, brokers, agencies, and more.</p>
-      </div>
+    <div style={{ padding: "2rem", fontFamily: "Arial, sans-serif" }}>
+      <h1>Welcome to the CPG Directory</h1>
+      <p>
+        This platform connects users with vendors across the CPG space — from
+        manufacturers to brokers, agencies, and trade shows.
+      </p>
+      <p>
+        Use the navigation above (or add some links) to explore the ecosystem.
+      </p>
     </div>
   );
 }
